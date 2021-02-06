@@ -1,0 +1,15 @@
+{
+  "name": "soc-job-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Witherow",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^7.0.1"
+  }
+}
