@@ -7,7 +7,8 @@ I'm using HomeAssistant for notifications here, but feel free to fork and make i
 
 ## Install
 This project is written with NodeJS. To install, clone the repo then run `yarn` or `npm install`
-Modify the variables at the top of app.js with your preferred values. You'll need to set `jobTitleRegex`, `jobListingUrl` and populate `homeAssistantSettings`. If you don't have a HomeAssistant server, you'll need another notification method. You could look into WhatsApp, Telegram, or even just send an email to your mobile number to receive a text message.
+Modify the variables at the top of app.js with your preferred values. You'll need to set `jobTitleRegex`, `jobListingUrl` and populate `homeAssistantSettings`.  
+If you don't have a HomeAssistant server, you'll need another notification method. You could look into WhatsApp, Telegram, or even just send an email to your mobile number to receive a text message.
 
 ## Run the app
 `node app.js`
