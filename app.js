@@ -44,6 +44,7 @@ const check = async () => {
 	await page.waitForSelector(".job-table-title")
 	const positions = await page.evaluate(() => {
 		// Grab the links for each job posting and return a list of objects containing the job title and the listing URL for that position
+		// document.querySelectorAll returns an array-link node list instead of an Array, so we'll use the spread operator to convert it.
 		const listings = [...document.querySelectorAll(".job-table-title > h3 > a")];
 		return listings.map(a => ({ title: a.textContent, url: a.href }));
 	});
