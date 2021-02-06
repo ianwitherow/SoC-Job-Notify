@@ -1,5 +1,5 @@
 ## State of Colorado Job Notifier
-Get notified when a particular job position becomes available within the State of Colorado!
+Get notified when a particular job position becomes available within the State of Colorado!  
 I'm using HomeAssistant for notifications here, but feel free to fork and make it your own.
 
 
