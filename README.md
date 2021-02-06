@@ -3,7 +3,7 @@ Get notified when a particular job position becomes available within the State o
 I'm using HomeAssistant for notifications here, but feel free to fork and make it your own.
 
 
-![Example](https://browskers.com/files/soc-notify-example.png)
+![Example](https://browskers.com/files/soc-notify-screenshot.png)
 
 ## Install
 Clone the repo, then run `yarn` or `npm install`
